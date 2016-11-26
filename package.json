@@ -1,0 +1,48 @@
+{
+  "name": "WhatsForLunchBot",
+  "version": "0.0.1",
+  "description": "Slack Bot for deciding where to eat.",
+  "main": "Botkit.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "botkit": "^0.2.1",
+    "botkit-storage-mongo": "^1.0.3",
+    "express": "^4.13.3",
+    "jfs": "^0.2.6",
+    "jscs": "^2.11.0",
+    "lodash": "^4.8.2",
+    "mocha": "^2.4.5",
+    "mongodb": "^1.4.40",
+    "mustache": "^2.2.1",
+    "request": "^2.67.0",
+    "sendgrid": "2.0.0",
+    "should": "^8.2.2",
+    "winston": "^2.2.0",
+    "ws": "^1.0.1",
+    "yelp": "^1.0.1"
+  },
+  "devDependencies": {
+    "jscs": "^2.7.0",
+    "mocha": "^2.4.5",
+    "should": "^8.0.2",
+    "winston": "^2.1.1"
+  },
+  "scripts": {
+    "pretest": "jscs ./lib/",
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "http://whatsforlunchbot.com",
+  "keywords": [
+    "bots",
+    "chatbots",
+    "slack"
+  ],
+  "author": "grecon14@gmail.com"
+}
